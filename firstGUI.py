@@ -21,7 +21,7 @@ def load_all_resources(model_path):
 
 st.title("Trung Tâm Tin Học")
 # st.image("xe_may_cu.jpg", caption="Xe máy cũ")
-st.image("./GUI_XeMayCu_Copy/xe_may_cu.jpg", caption="Xe máy cũ")
+st.image("xe_may_cu.jpg", caption="Xe máy cũ")
 # # tạo dataframe mẫu, có 3 cột: Thương hiệu, số lượng xe, Giá trung bình
 # data = {
 #     'Thương hiệu': ['Honda', 'Yamaha', 'Suzuki', 'Piaggio', 'SYM'],
@@ -237,6 +237,7 @@ elif choice=='Gợi ý điều khiển project 2':
         st.dataframe(result)
        
 # Done
+
 
 
 
