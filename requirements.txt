@@ -6,5 +6,4 @@ seaborn
 scikit-learn
 gensim
 pyvi
-xgboost
-XGBRegressor
+from xgboost import XGBRegressor
